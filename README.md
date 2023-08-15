@@ -1,4 +1,4 @@
-`  ## Database design and sales analysis
+## Database design and sales analysis
 *  defining primary and foreign key
 *  querying from MySQL workbench using join and subqueries
 *  Analysis questions
@@ -9,3 +9,4 @@
 * Best-selling product
 * Revenue by month
 * Orders 
+  
