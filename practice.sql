@@ -165,15 +165,7 @@ from orders;
 select orderdate,monthname(orderDate)
 from orders;
 
-select distinct monthname(orderdate), sum(price) as month_transaction
-from orders
-join order_details
-on orders. OrderID = order_details.OrderID
-join products
-on products.ProductID = order_details.ProductID
-Where OrderDate >= 2022-01-01 and =< 2022 -30-01
-group by monthname(OrderDate)
-order by month_transaction desc;
+
 
 -- BEST SELLING PRODUCTS CATEGORY
 
